@@ -1,10 +1,11 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 
 const About = () => {
     return (
         <main>
             <h1>About me</h1>
-            <p>here will be the about me page</p>
+            <Link to="/">Back to Home</Link>
         </main>
     )
 }
